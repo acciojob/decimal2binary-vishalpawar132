@@ -1,10 +1,7 @@
-function threeSum(arr, target) {
- let binary = "";
-  while (decimal > 0) {
-    binary = (decimal % 2) + binary;
-    decimal = Math.floor(decimal / 2);
-  }
-  return binary;
-}
+function decimalToBinary(decimal) {
+      return decimal.toString(2);
+    }
 
-module.exports = threeSum;
+    const decimal = 42;
+    const binary = decimalToBinary(decimal);
+    console.log(binary); // Output: 101010
